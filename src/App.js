@@ -3,7 +3,8 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducer from '@src/store/reducer';
 
-import Pace from  '@src/utils/pace.js'
+import Pace from  '@src/utils/pace'
+import '@src/statics/pace/pace.css'
 
 import routes from '@src/routes';
 
@@ -18,6 +19,7 @@ class App extends PureComponent {
         }
     }
     render() {
+        console.log(Pace.start())
         return (
             <Provider store={store}>
                 {routes}
