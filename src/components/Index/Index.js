@@ -9,7 +9,7 @@ class Index extends PureComponent {
     }
     render() {
         return (
-        <div>text</div>
+            <div>{this.state.text}</div>
         )
     }
 }
