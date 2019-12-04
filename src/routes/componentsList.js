@@ -1,5 +1,5 @@
-import Login from '../components/login/login'
-import Index from '../components/Index/Index';
+import Login from '../pages/login/login'
+import Index from '../pages/Index/Index';
 
 export default {
     Login,
