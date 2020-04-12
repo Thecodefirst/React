@@ -14,7 +14,6 @@ class App extends PureComponent {
         }
     }
     render() {
-        console.log(Pace.start())
         return (
             <Provider store={store}>
                 {routes}

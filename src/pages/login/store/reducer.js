@@ -10,7 +10,7 @@ const defaultState = fromJS({
 export default (state = defaultState, action) => {
   switch (action.type) {
     case constants.USER_INFO:
-      return state.set('userInfo', action.value)
+      return state.setIn(['userInfo'], fromJS(action.value))
     default:
       return state;
   }

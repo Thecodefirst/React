@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.7.1",
-    "@material-ui/styles": "^4.7.1",
     "customize-cra": "^0.9.1",
     "immutable": "^4.0.0-rc.12",
     "react": "^0.0.0-b53ea6ca0",
